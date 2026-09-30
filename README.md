@@ -7,10 +7,11 @@ SPA da ONG fictícia Casa da Leitura. Demonstra navegação por hash, componente
 ## Executar
 
 ```sh
+npm install
 npm run dev
 ```
 
-Abra o endereço mostrado pelo Vite e use `html/index.html` como entrada. Para gerar os arquivos de distribuição, execute `npm run build`. O resultado fica em `dist/`. Abra `dist/html/index.html` no navegador ou sirva a pasta por um servidor estático. A biblioteca Vue está incluída em `js/vendor/`.
+Abra o endereço mostrado pelo Vite e use `html/index.html` como entrada. Para gerar os arquivos de distribuição minificados, execute `npm run build`. O script usa Terser para reduzir o JavaScript da aplicação. O resultado fica em `dist/`. Abra `dist/html/index.html` no navegador ou sirva a pasta por um servidor estático. A biblioteca Vue está incluída em `js/vendor/`.
 
 ## Estrutura
 
