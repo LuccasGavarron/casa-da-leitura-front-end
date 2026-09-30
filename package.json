@@ -1,0 +1,12 @@
+{
+  "name": "casa-da-leitura-spa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 8766",
+    "build": "python3 build.py"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
