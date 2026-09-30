@@ -26,3 +26,13 @@ Abra `http://localhost:8766/html/index.html` após executar o servidor. Para ger
 O projeto é demonstrativo. Não recebe dados pessoais, doações ou pagamentos. Para apagar os interesses, remova-os pela interface ou limpe o armazenamento local do navegador.
 
 A revisão de acessibilidade e seus limites estão em [ACESSIBILIDADE.md](ACESSIBILIDADE.md).
+
+## Publicação e versionamento
+
+Site publicado: https://luccasgavarron.github.io/casa-da-leitura-front-end/
+
+O trabalho usa `main` para versões entregues, `develop` para integração, branches `feature/` para alterações isoladas, `release/1.0.0` para preparar a primeira entrega e `gh-pages` para servir a pasta `dist/`. A integração da auditoria ocorreu no [PR #1](https://github.com/LuccasGavarron/casa-da-leitura-front-end/pull/1). As tags `v1.0.0`, `v1.0.1` e `v1.0.2` registram as versões publicadas.
+
+## Verificação
+
+Execute `npm run build` e teste as rotas, o formulário e a navegação por teclado no navegador. O relatório [ACESSIBILIDADE.md](ACESSIBILIDADE.md) registra os contrastes avaliados, a revisão manual e os limites dessa verificação.
