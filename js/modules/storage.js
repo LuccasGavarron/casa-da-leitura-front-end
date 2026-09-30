@@ -1,0 +1,1 @@
+const t="casa-da-leitura-interesses-v1";export function readInterests(){try{const e=JSON.parse(localStorage.getItem(t)||"[]");return Array.isArray(e)?e.filter((t=>"string"==typeof t)):[]}catch{return[]}}export function saveInterests(e){localStorage.setItem(t,JSON.stringify(e))}

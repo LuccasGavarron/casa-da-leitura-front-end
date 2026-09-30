@@ -1,0 +1,1 @@
+export const projects=[{id:"livros",title:"Livros em circulação",description:"Organização de um acervo comunitário para aproximar leitores."},{id:"rodas",title:"Roda de histórias",description:"Encontros de leitura compartilhada para todas as idades."},{id:"oficinas",title:"Aprender em companhia",description:"Oficinas de leitura e escrita com apoio de voluntários."}];

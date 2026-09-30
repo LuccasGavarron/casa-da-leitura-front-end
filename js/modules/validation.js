@@ -1,0 +1,1 @@
+export function validateInterest({name:e,email:t,project:i}){const a={};return e.trim().length<3&&(a.name="Digite um nome com pelo menos três caracteres."),/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(t.trim())||(a.email="Digite um e-mail válido."),i||(a.project="Escolha uma iniciativa."),a}
