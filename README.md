@@ -24,3 +24,5 @@ Abra o endereço mostrado pelo Vite e use `html/index.html` como entrada. Para g
 - `js/modules/storage.js`: leitura e gravação de interesses no localStorage.
 
 O projeto é demonstrativo. Não recebe dados pessoais, doações ou pagamentos. Para apagar os interesses, remova-os pela interface ou limpe o armazenamento local do navegador.
+
+A revisão de acessibilidade e seus limites estão em [ACESSIBILIDADE.md](ACESSIBILIDADE.md).
